@@ -12,15 +12,15 @@ class con_three{
             case 2: System.out.println("Tuesday");
                     break;
             case 3: System.out.println("wednesday");
-                break;
+                    break;
             case 4: System.out.println("Thursday");
-                break;
+                    break;
             case 5: System.out.println("friday");
-                break;
+                    break;
             case 6: System.out.println("Saturday");
-                break;
+                    break;
             case 7: System.out.println("Sunday");
-                break;
+                    break;
             default: System.out.println("Wrong  Number");              
         } 
             

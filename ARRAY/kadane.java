@@ -15,7 +15,7 @@ class kadane{
 
         if(ms==0){
             ms = arr[0];
-            for(i=0; i< arr.length; i++){
+            for(i=1; i< arr.length; i++){
                 ms = Math.max(ms,arr[i]);
             }
         }
