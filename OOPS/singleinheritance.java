@@ -10,7 +10,7 @@ class Dog extends Animal {
     }
 }
 
-public class Test {
+public class singleinheritance {
     public static void main(String[] args) {
         Dog d = new Dog();
         d.eat();  // inherited from Animal

@@ -57,7 +57,7 @@ class subarraysum{
     
     
     public static void main(String args[]){
-        int arr[]= {2,4,6,8};
+        int arr[]= {1,4,5,3,2,1,6};
         subarr(arr);
     }
 }

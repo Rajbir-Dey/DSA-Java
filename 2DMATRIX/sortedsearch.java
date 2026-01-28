@@ -7,7 +7,7 @@ class sortedsearch{
         int row=0;
         int col= arr[0].length-1;
 
-        while(row<arr.length && col>=0){
+        while(row<arr.length && col<arr[0].length){
             if(arr[row][col]==key){
                 System.out.println("key found at: ("+ row + "," + col + ")");
                 break;

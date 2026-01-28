@@ -9,7 +9,7 @@ class diagonalsum{
             for(j=0 ; j<arr[0].length; j++){
                 if(i==j){
                     sum+=arr[i][j];
-                }else if(( i+j) == arr.length-1){
+                }else if((i+j) == arr.length-1){
                     sum+=arr[i][j];
                 }
             }
@@ -29,11 +29,14 @@ class diagonalsum{
         int sum=0;
         for(i=0 ; i<arr.length ; i++){
         sum+= arr[i][i];
+        
 
-        //to remove overlap
+         //to remove overlap
         if(i!=arr.length-1-i){
             sum+= arr[i][arr.length-1-i];
         }
+
+       
     }
     return sum;
 }

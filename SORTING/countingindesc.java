@@ -1,5 +1,5 @@
 import java.util.*;
-class desc{
+class countingindesc{
    
     public static void sort(int arr[]){
         int max = Integer.MIN_VALUE;

@@ -1,5 +1,5 @@
 class Encapsulation {
-    // Step 1: private variables
+    // Step 1: private variables which cannot be accessed out of class
     private String name;
     private int age;
 
@@ -35,4 +35,10 @@ class Encapsulation {
 }
 
 
+/* roll = money in a locker (private)
 
+getRoll() = bank clerk
+
+You ask the clerk → clerk tells you the amount
+
+You never touch the locker directly */
