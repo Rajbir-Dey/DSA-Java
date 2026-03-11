@@ -1,4 +1,4 @@
-class Recursion2 {
+class Recursionn2 {
 
     public static void printDigits(int number) {
 
@@ -20,6 +20,6 @@ class Recursion2 {
     }
 
     public static void main(String[] args) {
-        printDigits(1234);
+        printDigits(5821);
     }
 }
