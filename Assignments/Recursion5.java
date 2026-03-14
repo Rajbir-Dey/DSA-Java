@@ -12,7 +12,7 @@ class Recursion5{
     }
    
     public static void main(String args[]){
-        int n = 3;
+        int n = 2;
         tofHanoi(n,"S" , "H" , "D");
     }
 }
