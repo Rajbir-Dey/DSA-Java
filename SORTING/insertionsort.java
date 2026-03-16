@@ -1,24 +1,28 @@
-import java.util.Arrays;
-class insertionsort{
-    
+class insertionsort {
     
     public static void insertion(int arr[]){
-        for(int i=1; i<arr.length ; i++){
-            int temp_currval =arr[i];
-            int prev= i-1;
-            while(prev>=0 && arr[prev]>temp_currval){
-                arr[prev+1]=arr[prev];
-                prev--; //for left check, aro elements ache nki in sorted part.
+        for(int i = 1 ;i<arr.length ; i++){
+            
+            int temp = arr[i]; //temp e asche
+
+            int j =i-1; //right shift korar value
+
+            while(j>=0 && arr[j]>temp){
+                arr[j+1] = arr[j]; //rightshift
+                j--; 
             }
-
-            arr[prev+1]=temp_currval;
+            arr[j+1] = temp; //ith pos e insert er jonno
         }
-
-        System.out.println(Arrays.toString(arr));
+    }
+    public static void printarr(int arr[]){
+        for(int i=0 ; i<arr.length ; i++){
+            System.out.print(arr[i] + " ");
+        }
     }
     
-    public static void main(String args[]){
-        int arr[] = {5,4,1,3,2,6};
+    public static void main(String[] args) {
+        int arr[] = {2,1,3,4,6,8,1,7};
         insertion(arr);
+        printarr(arr);
     }
 }
